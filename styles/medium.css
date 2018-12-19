@@ -1,0 +1,45 @@
+@media only screen and (min-width: 550px) {
+
+
+    header {
+
+        display: flex;
+        
+    }
+
+    .logo {
+
+        max-width: 180px;
+        
+    }
+
+
+/*********** NAVIGATION *************/
+
+nav .topNav {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+nav .navigation {
+    
+    display: flex;
+}
+
+nav .menu {
+
+    display: none;
+}
+
+nav .hide {
+    
+    display: inline-flex;
+    font-size: 12pt;
+    padding: 0.2rem;
+}
+
+
+
+
+}

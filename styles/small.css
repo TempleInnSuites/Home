@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    min-width: 360px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: 'Carrois Gothic SC', sans-serif;
+    
+}
+
+/******** HEADER **********/
+
+
+header {
+    background-color: #959CA3;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo {
+    
+    max-width: 150px;
+    
+}
+
+/******** NAVIGATION **********/
+
+nav {
+    background-color: #2C3C56;
+    width: 100%; 
+    color: #fff;
+    border-top-color: #D14851;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav a {
+    
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        font-size: 1.2rem;
+        text-align: center;	
+    }
+
+
+
+nav  li a:hover { 
+    background-color: #D14851; 
+    color: white;
+}
+
+nav a:visited{
+
+    color: #2C3C56;
+
+}
+
+
+nav a:active {
+
+    background-color: #D14851; 
+    color: white;
+}
+
+
+.selected {
+
+background-color: #959CA3;
+color: #2C3C56;
+}
+
+
+
+/******** FOOTER **********/
+
+
+footer {
+
+    background-color: #D14851;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 7pt;
+
+}
