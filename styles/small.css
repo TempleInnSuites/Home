@@ -20,10 +20,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 header {
-    background-color: #959CA3;
+    background-color: #B8B0A6;
     text-align: center;
     padding: 0.5rem;
-    color: white;
+    color: #2C3C56;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -33,6 +33,7 @@ header {
 .logo {
     
     max-width: 150px;
+    
     
 }
 
@@ -45,6 +46,12 @@ nav {
     border-top-color: #D14851;
     border-width: 5px 0 0 0;
     border-style: solid;
+    
+}
+
+.navcontent {
+
+    padding: 0;
 }
 
 nav ul {
@@ -71,7 +78,7 @@ nav  li a:hover {
 
 nav a:visited{
 
-    color: #2C3C56;
+    color: white;
 
 }
 
@@ -96,10 +103,323 @@ color: #2C3C56;
 
 footer {
 
-    background-color: #D14851;
+    background-color: #B8B0A6;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     font-size: 7pt;
+    margin-top: 10px;
 
 }
+
+/********************* HOME ***********************/
+
+
+/******** MAIN **********/
+
+main {
+
+    text-align: center;
+}
+
+.heroimage {
+
+    width: 750px;;
+    margin: 100px auto auto auto;
+}
+.heroImage img {
+
+    width: 100%;
+    max-width: 750px;
+    border-radius: 10px;
+     
+}
+
+.heroImage a:hover {
+
+    opacity: 0.75;
+}
+
+
+
+.homesection {
+
+    background-color: #959CA3;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.homesection h3, .homesection p {
+
+    background-color: white;
+    padding: 15px 20px;
+}
+
+.homesection p {
+
+    text-align: left;
+    
+}
+
+
+.callaction {
+
+    background-color: #D14851;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    border: 4px solid #959CA3;
+    width: 500px;
+}
+
+.callaction h3, .callaction p {
+
+    padding: 15px 25px;
+}
+
+.callaction p {
+
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+.homebutton {
+
+    width: 200px;
+    background-color: #2C3C56;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 15px 10px;
+}
+
+.homebutton:hover {
+
+    box-shadow: 0px 2px 15px 10px black;
+}
+
+
+.templeindex {
+
+    margin: 100px auto;
+    background-color: #959CA3;
+    padding: 30px;
+
+}
+
+.templeindex h4, .templeindex p {
+
+    color: white;
+    padding: 15px 20px;
+}
+
+.templeindex p {
+
+    text-align: left;
+    
+}
+
+.hometempleimg {
+
+    margin-bottom: -100px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px black;
+}
+
+.contactus {
+
+    width: 200px;
+    background-color: #959CA3;
+    color: #2C3C56;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 15px 10px;
+}
+
+.contactlink {
+
+    text-decoration: none;
+}
+
+.contactus:hover {
+
+    box-shadow: 0px 2px 15px 10px black;
+}
+
+/********************* AMENITIES ***********************/
+
+.amenitiesh2 {
+
+    margin: 70px auto 40px auto;
+    
+}
+
+.freeamenities {
+
+    text-align: left;
+    margin: 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 10px;
+    background-color: #B8B0A6;
+    padding: 10px 10px;
+    
+    
+
+}
+
+.freeamenitieswrapper {
+    background-color: #959CA3;
+    color: white;
+    padding: 20px 0;
+    
+}
+
+.freeamenitieswrapper h4 {
+    color: #D14851;
+    background-color: white;
+    margin: 0 40px;
+    padding: 20px;
+}
+
+.amenitiesimage {
+    
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    
+
+}
+
+
+.freeamenities p {
+
+    margin: auto;
+    text-align: left;
+    font-size: 16px;
+
+}
+
+.otheramenities {
+
+    margin: 40px 40px;
+    background-color: #959CA3;
+    color: white;
+    padding: 20px 0;
+    
+}
+
+.otheramenities h4 {
+
+    color: #D14851;
+    background-color: white;
+    margin: 0 30px;
+    padding: 5px;
+}
+
+.otheramenities ul {
+    list-style-type: square;
+    padding: 10px 10px 10px 40px;
+    text-align: left;
+}
+
+.otheramenities li {
+
+    padding: 5px;
+}
+
+.contactlinkamenities {
+
+    text-decoration: none;
+}
+
+
+/********************* CONTACT ***********************/
+
+.contactmain {
+    
+
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 80px auto 140px auto;;
+    
+}
+
+.contactmain h1 {
+    
+    text-transform: uppercase;
+    padding: 0;
+
+    
+    
+}
+
+.contactheader {
+    background-color: #a6a7ab;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+.contactform {
+    
+    background-color: #a6a7ab;
+    width: 63%;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.formcontainer {
+    
+    background-color: #a6a7ab;
+    width: 80%;
+    margin: auto;
+}
+
+.contactPara {
+    
+    width: 80%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.contactform p {
+    
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 2px;
+    
+}
+
+.input {
+    
+    padding: 5px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.contactbutton {
+    
+    background-color: #4D5057;
+    color: white;
+    
+    border-color: white;
+}
+
+.contactbutton:hover {
+    background-color: #b422aa;
+    color: white;
+    border-color: #b422aa;
+    
+}
+

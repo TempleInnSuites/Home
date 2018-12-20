@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <link href="styles/normalize.css" type="text/css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <title>Temple Inn & Suites | Contact</title>
+
+    <meta name="description" content="Hotel room reservations for Temple Inn & Suites with all amenities and services listed.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="Temple Inn & Suites Logo">
+        <div class="headertext">
+            <h1>Temple Inn & Suites</h1>
+            <div class="subheading">An Elevated Stay</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="menu" onclick="toggleMenu()"><a href="#">Menu</a></li>
+        </ul>
+        <ul id="navcontent" class="topNav">
+            <li class="navigation"><a href="index.html">Home</a></li>
+            <li class="navigation"><a href="reservations.html">Reservations</a></li>
+            <li class="navigation"><a href="temples.html">Temples</a></li>
+            <li class="navigation"><a href="amenities.html">Amenities</a></li>
+            <li class="navigation selected"><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <main class='contactmain'>
+            <div class="contactheader">
+                 <h1>Contact Us</h1>
+             </div>
+                 <p class=contactPara>
+                 Please fill out and submit the information below if you have any questions or would like to inquire about my services.
+                 </p>
+             <div class='formcontainer'>
+                 <form class='contactform'>
+                     <p>First Name</p>
+                         <input type='text' name="firstname" class='input'>
+                     <p>Last Name</p>
+                         <input type='text' name="lastname" class='input'>
+                      <p>Email</p>
+                         <input type='email' name='email' placeholder="example@gmail.com" class='input'>
+                     <p>Message</p>
+                         <textarea name='message' rows='10' cols='50' class='input'></textarea>
+                     <br>
+                         <input type='submit' value='Say Cheese!' class='input contactbutton'>
+                 </form>
+             </div>
+         </main>
+
+    <footer>
+            <p class="footercopyright">
+                &copy;2018 Temple Inn & Suites
+            </p>
+    </footer>
+
+    <script src="scripts/togglemenu.js"></script>
+</body>
+
+</html>
