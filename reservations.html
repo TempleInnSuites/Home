@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <link href="styles/normalize.css" type="text/css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <title>Temple Inn & Suites | Reservations</title>
+
+    <meta name="description" content="Hotel room reservations for Temple Inn & Suites with all amenities and services listed.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="Temple Inn & Suites Logo">
+        <div class="headertext">
+            <h1>Temple Inn & Suites</h1>
+            <div class="subheading">An Elevated Stay</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="menu" onclick="toggleMenu()"><a href="#">Menu</a></li>
+        </ul>
+        <ul id="navcontent" class="topNav">
+            <li class="navigation"><a href="index.html">Home</a></li>
+            <li class="navigation selected"><a href="reservations.html">Reservations</a></li>
+            <li class="navigation"><a href="temples.html">Temples</a></li>
+            <li class="navigation"><a href="amenities.html">Amenities</a></li>
+            <li class="navigation"><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <main>
+        <div class="heroImage">
+            <img src="images/reservations-hero.jpg" alt="Hotel bed with a pillow on top" class="heroimage">
+        </div>
+        <h2 class="reservationsh2">Reservations</h2>
+
+
+    
+        <form action='thanks.html'>
+            <fieldset>
+                <h3>Guest Information</h3>
+                <p>Full Name*</p>
+                <input type="text" name="fullname" pattern="[A-z]{5,}" required>
+                <p>Email</p>
+                <input type='email' name='email' placeholder="example@gmail.com">
+                <p>Phone*</p>
+                <input type='tel' name='phone' required>
+                <p>State OR Country*</p>
+                <input type='text' name='state-country' required>
+            </fieldset>
+            <fieldset>
+                <h3>Stay Information</h3>
+                <p>Check In Date*</p>
+                <input type="date" name='checkin-date' required>
+                <p>Check Out Date*</p>
+                <input type="date" name='checkout-date' required>
+                <p>Temple Inn & Suites Location*</p>
+                <input type="text" name="location" pattern="[A-z]{5,}" required>
+                <p>Number of Rooms</p>
+                <input list="rooms" name='rooms'>
+                <datalist id='rooms'>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                </datalist>
+                <p>Type of Room</p>
+                <input list="room-type" name='room-type'>
+                <datalist id='room-type'>
+                    <option value="Single Bed"></option>
+                    <option value="Full Bed"></option>
+                    <option value="Queen Bed"></option>
+                    <option value="King Bed"></option>
+                </datalist>
+
+            </fieldset>
+            <fieldset>
+                <h3>Additional Information</h3>
+                <p>Are you interested in any of our additional services/amenities?</p>
+                <div class='special'>
+                    <input type='radio' value='yes' name='special'>
+                    <span>Yes</span>
+                    <input type='radio' value='no' name='special'>
+                    <span>No</span>
+                </div>
+                <p>Please list which services you are interested in</p>
+                <textarea name='comments' rows="6"></textarea>
+                <p>Special Requests / Comments</p>
+                <textarea name='comments' rows="6"></textarea>
+            </fieldset>
+            <input type='submit' value='Submit' class='submit'>
+    
+    
+        </form>
+    
+    
+    
+    
+    
+    </main>
+
+    <footer>
+        <p class="footercopyright">
+
+            &copy;2018 Temple Inn & Suites
+        </p>
+    </footer>
+
+    <script src="scripts/togglemenu.js"></script>
+</body>
+
+</html>

@@ -41,32 +41,57 @@
 
 
     <main class='contactmain'>
-            <div class="contactheader">
-                 <h1>Contact Us</h1>
-             </div>
-                 <p class=contactPara>
-                 Please fill out and submit the information below if you have any questions or would like to inquire about my services.
-                 </p>
-             <div class='formcontainer'>
-                 <form class='contactform'>
-                     <p>First Name</p>
-                         <input type='text' name="firstname" class='input'>
-                     <p>Last Name</p>
-                         <input type='text' name="lastname" class='input'>
-                      <p>Email</p>
-                         <input type='email' name='email' placeholder="example@gmail.com" class='input'>
-                     <p>Message</p>
-                         <textarea name='message' rows='10' cols='50' class='input'></textarea>
-                     <br>
-                         <input type='submit' value='Say Cheese!' class='input contactbutton'>
-                 </form>
-             </div>
-         </main>
+        <div class="contactheader">
+            <h2>Contact Us</h2>
+        </div>
+        <p class=contactPara>
+            If you have any questions and would like to contact us directly, please use
+            the information below.
+        </p>
+
+        <div class="contactinfo">
+            <p class="label">Phone:</p>
+            <p class="value">(800) 777-5555</p>
+            <p class="label">Hours:</p>
+            <p class="value">6:00 AM MT - 12:00 AM MT</p>
+            <p class="label">Days:</p>
+            <p class="value">Monday - Saturday</p>
+            <p class="label">Email:</p>
+            <p class="value">support@templeinnsuites.com</p>
+
+
+        </div>
+
+        <div class='formcontainer'>
+            <form action="thanks.html" class='contactform'>
+                <h3>Send Us A Message</h3>
+                <p>First Name</p>
+                <input type='text' name="firstname" class='input'>
+                <p>Last Name</p>
+                <input type='text' name="lastname" class='input'>
+                <p>Email</p>
+                <input type='email' name='email' placeholder="example@gmail.com" class='input'>
+                <p>Message</p>
+                <textarea name='message' rows='10' cols='30' class='input'></textarea>
+                <br>
+                <input type='submit' value='Submit' class='input contactbutton'>
+            </form>
+        </div>
+        <div class="map">
+            <h3>Give Us A Visit</h3>
+            <p>
+                4800 Montgomery Ln #300, Bethesda, MD 20814
+            </p>
+            <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404837028515!2d-77.09772048490083!3d38.983255949484146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1545288363137"
+                width="400" height="300" style="border:0" allowfullscreen></iframe>
+        </div>
+    </main>
 
     <footer>
-            <p class="footercopyright">
-                &copy;2018 Temple Inn & Suites
-            </p>
+        <p class="footercopyright">
+
+            &copy;2018 Temple Inn & Suites
+        </p>
     </footer>
 
     <script src="scripts/togglemenu.js"></script>
