@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://templeinnsuites.github.io/Home/scripts/temples.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -56,4 +56,3 @@ for (let i=0; i < temples.length; i++) {
 }
 }
 
-document.getElementsByClassName("templescontainer").innerHTML = temples();

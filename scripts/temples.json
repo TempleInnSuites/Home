@@ -12,7 +12,7 @@
       "Clothing rental available",
       "No cafeteria available",
       "No patron housing available",
-      "No distribution center nearby",
+      "No distribution center nearby"
     ],
     "closures" : [
       "Saturday, April 6, 2019",
@@ -20,12 +20,12 @@
       "Saturday, October 5, 2019",
       "Monday, November 11, 2019 - Monday, November 25, 2019",
       "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
-      "Wednesday, December 25, 2019",
+      "Wednesday, December 25, 2019"
     ],
     "history" : [
       "Announced: April 4, 1999",
       "Groundbreaking: October 24, 1999",
-      "Dedicated: June 27, 2002",
+      "Dedicated: June 27, 2002"
     ]
   },
 
@@ -41,7 +41,7 @@
       "No clothing rental available",
       "No cafeteria available",
       "No patron housing available",
-      "Distribution center nearby",
+      "Distribution center nearby"
     ],
     "closures" : [
       "Tuesday, January 1, 2019",
@@ -53,12 +53,12 @@
       "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
       "Tuesday, December 24, 2019",
       "Wednesday, December 25, 2019",
-      "Tuesday, December 31, 2019 (Limited Hours)",
+      "Tuesday, December 31, 2019 (Limited Hours)"
     ],
     "history" : [
       "Announced: October 3, 2009",
       "Groundbreaking: July 31, 2010",
-      "Dedicated: September 23, 2012",
+      "Dedicated: September 23, 2012"
     ]
   },
 
@@ -74,7 +74,7 @@
       "Clothing rental available",
       "Cafeteria available",
       "No patron housing available",
-      "Distribution center nearby",
+      "Distribution center nearby"
     ],
     "closures" : [
       "Tuesday, January 1, 2019",
@@ -85,12 +85,12 @@
       "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
       "Tuesday, December 24, 2019",
       "Wednesday, December 25, 2019",
-      "Tuesday, December 31, 2019",
+      "Tuesday, December 31, 2019"
     ],
     "history" : [
       "Announced: April 7, 1984",
       "Groundbreaking: February 27, 1988",
-      "Dedicated: April 25, 1993",
+      "Dedicated: April 25, 1993"
     ]
   },
 
@@ -106,7 +106,7 @@
       "No clothing rental available",
       "No cafeteria available",
       "No patron housing available",
-      "Distribution center nearby",
+      "Distribution center nearby"
     ],
     "closures" : [
       "Tuesday, January 1, 2019",
@@ -117,16 +117,16 @@
       "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
       "Tuesday, December 24, 2019",
       "Wednesday, December 25, 2019",
-      "Tuesday, December 31, 2019",
+      "Tuesday, December 31, 2019"
     ],
     "history" : [
       "Announced: March 31, 1982",
       "Groundbreaking: December 18, 1982",
       "Dedicated: May 25, 1984",
       "Rededicated: May 29, 1987",
-      "Rededicated: November 18, 2012",
+      "Rededicated: November 18, 2012"
     ]
-  },
+  }
 
  ]
 }
