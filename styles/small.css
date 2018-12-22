@@ -265,6 +265,7 @@ main {
 
     margin: 70px auto 40px auto;
     
+    
 }
 
 .freeamenities {
@@ -273,8 +274,8 @@ main {
     margin: 20px 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
     padding: 10px 10px;
     
     
@@ -294,6 +295,7 @@ main {
     text-align: center;
     background-color: #B8B0A6;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .freeamenitieswrapper h4 {
@@ -301,6 +303,7 @@ main {
     background-color: white;
     margin: 0 40px;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .amenitiesimage {
@@ -336,6 +339,7 @@ main {
     background-color: white;
     margin: 0 30px;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .otheramenities ul {
@@ -608,6 +612,7 @@ form {
     background-color: #959CA3;
     margin: 80px auto 30px auto;
     width: 100%;
+    border-radius: 15px;
     
     
 }
@@ -638,6 +643,7 @@ form {
     font-size: 12pt;
     padding-top: 5px;
     padding-bottom: 5px;
+    
 }
 
 
