@@ -22,7 +22,7 @@ for (let i=0; i < temples.length; i++) {
         document.getElementById('nauvooHistory').innerHTML = 'History: ' + temples[i].history;
         
 
-    } else if (towns[i].name == 'Brigham City Utah Temple') {
+    } else if (temples[i].name == 'Brigham City Utah Temple') {
 
         document.getElementById('brighamHeader').innerHTML = temples[i].name;
         document.getElementById('brighamAddress').innerHTML = 'Address: ' + temples[i].address + ', ' + temples[i].city + " " + temples[i].state + ", " + temples[i].zip;
@@ -33,7 +33,7 @@ for (let i=0; i < temples.length; i++) {
         document.getElementById('brighamHistory').innerHTML = 'History: ' + temples[i].history;
 
 
-    } else if (towns[i].name == 'San Diego California Temple') {
+    } else if (temples[i].name == 'San Diego California Temple') {
 
         document.getElementById('sandiegoHeader').innerHTML = temples[i].name;
         document.getElementById('sandiegoAddress').innerHTML = 'Address: ' + temples[i].address + ', ' + temples[i].city + " " + temples[i].state + ", " + temples[i].zip;
@@ -43,7 +43,7 @@ for (let i=0; i < temples.length; i++) {
         document.getElementById('sandiegoClosures').innerHTML = 'Closures: ' + temples[i].closures;
         document.getElementById('sandiegoHistory').innerHTML = 'History: ' + temples[i].history;
 
-    } else if (towns[i].name == 'Boise Idaho Temple') {
+    } else if (temples[i].name == 'Boise Idaho Temple') {
 
         document.getElementById('boiseHeader').innerHTML = temples[i].name;
         document.getElementById('boiseAddress').innerHTML = 'Address: ' + temples[i].address + ', ' + temples[i].city + " " + temples[i].state + ", " + temples[i].zip;
