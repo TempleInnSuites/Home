@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <link href="styles/normalize.css" type="text/css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+
+    <title>Temple Inn & Suites | Temples</title>
+
+    <meta name="description" content="Hotel room reservations for Temple Inn & Suites with all amenities and services listed.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="Temple Inn & Suites Logo">
+        <div class="headertext">
+            <h1>Temple Inn & Suites</h1>
+            <div class="subheading">An Elevated Stay</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="menu" onclick="toggleMenu()"><a href="#">Menu</a></li>
+        </ul>
+        <ul id="navcontent" class="topNav">
+            <li class="navigation"><a href="index.html">Home</a></li>
+            <li class="navigation"><a href="reservations.html">Reservations</a></li>
+            <li class="navigation selected"><a href="temples.html">Temples</a></li>
+            <li class="navigation"><a href="amenities.html">Amenities</a></li>
+            <li class="navigation"><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <main>
+        <div class="heroImage">
+            <img src="images/moroni-temple.jpg" alt="Statue of the Angel Moroni on top of a temple" class="heroimage">
+        </div>
+        <h2 class="templesh2">Temples</h2>
+        <section class="templescontainer">
+            <div class="temple">
+                <img src="images/san-diego-temple.jpg" alt="Outside of the San Diego California temple" class="templeimage">
+                <h3 id="sandiegoHeader"></h3>
+                <p id="sandiegoAddress"></p>
+                <p id="sandiegoPhone"></p>
+                <p id="sandiegoEndowment"></p>
+                <p id="sandiegoServices"></p>
+                <p id="sandiegoClosures"></p>
+                <p id="sandiegoHistory"></p>
+            
+            </div>
+
+            <div class="temple">
+                    <img src="images/nauvoo-temple.jpg" alt="Outside of the Nauvoo Illinois temple" class="templeimage">
+                    <h3 id="nauvooHeader"></h3>
+                    <p id="nauvooAddress"></p>
+                    <p id="nauvooPhone"></p>
+                    <p id="nauvooEndowment"></p>
+                    <p id="nauvooServices"></p>
+                    <p id="nauvooClosures"></p>
+                    <p id="nauvooHistory"></p>
+                
+            </div>
+
+            <div class="temple">
+                    <img src="images/brigham-city-temple.jpg" alt="Outside of the Brigham City Utah temple" class="templeimage">
+                    <h3 id="brighamHeader"></h3>
+                    <p id="brighamAddress"></p>
+                    <p id="brighamPhone"></p>
+                    <p id="brighamEndowment"></p>
+                    <p id="brighamServices"></p>
+                    <p id="brighamClosures"></p>
+                    <p id="brighamHistory"></p>
+                
+            </div>
+
+            <div class="temple">
+                    <img src="images/boise-idaho-temple.jpg" alt="Outside of the Boise Idaho temple" class="templeimage">
+                    <h3 id="boiseHeader"></h3>
+                    <p id="boiseAddress"></p>
+                    <p id="boisePhone"></p>
+                    <p id="boiseEndowment"></p>
+                    <p id="boiseServices"></p>
+                    <p id="boiseClosures"></p>
+                    <p id="boiseHistory"></p>
+                
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p class="footercopyright">
+            &copy;2018 Temple Inn & Suites
+        </p>
+    </footer>
+
+    <script src="scripts/togglemenu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script src="scripts/temples.json"></script>
+    <script src="scripts/temples.js"></script>
+</body>
+
+</html>

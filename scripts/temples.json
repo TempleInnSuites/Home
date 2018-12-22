@@ -1,0 +1,132 @@
+{
+  "temples" : [
+  {
+    "name": "Nauvoo Illinois Temple",
+    "address": "50 N Wells St",
+    "city": "Nauvoo",
+    "state": "IL",
+    "zip": 62354,
+    "phone": 2174536252,
+    "endowment": "Tuesday to Saturday, 9:00 AM to 12:00 PM",
+    "services" : [
+      "Clothing rental available",
+      "No cafeteria available",
+      "No patron housing available",
+      "No distribution center nearby",
+    ],
+    "closures" : [
+      "Saturday, April 6, 2019",
+      "Monday, April 29, 2019 - Sunday, May 12, 2019",
+      "Saturday, October 5, 2019",
+      "Monday, November 11, 2019 - Monday, November 25, 2019",
+      "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
+      "Wednesday, December 25, 2019",
+    ],
+    "history" : [
+      "Announced: April 4, 1999",
+      "Groundbreaking: October 24, 1999",
+      "Dedicated: June 27, 2002",
+    ]
+  },
+
+{
+    "name": "Brigham City Utah Temple",
+    "address": "250 S Main St",
+    "city": "Brigham City",
+    "state": "UT",
+    "zip": 84302,
+    "phone": 4356952170,
+    "endowment": "Tuesday to Saturday, 7:00 AM to 7:00 PM",
+    "services" : [
+      "No clothing rental available",
+      "No cafeteria available",
+      "No patron housing available",
+      "Distribution center nearby",
+    ],
+    "closures" : [
+      "Tuesday, January 1, 2019",
+      "Monday, February 25, 2019 - Monday, March 11, 2019",
+      "Saturday, April 6, 2019",
+      "Thursday, July 4, 2019",
+      "Wednesday, July 24, 2019",
+      "Monday, August 5, 2019 (Limited Hours)",
+      "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
+      "Tuesday, December 24, 2019",
+      "Wednesday, December 25, 2019",
+      "Tuesday, December 31, 2019 (Limited Hours)",
+    ],
+    "history" : [
+      "Announced: October 3, 2009",
+      "Groundbreaking: July 31, 2010",
+      "Dedicated: September 23, 2012",
+    ]
+  },
+
+{
+    "name": "San Diego California Temple",
+    "address": "7474 Charmant Dr",
+    "city": "San Diego",
+    "state": "CA",
+    "zip": 92122,
+    "phone": 8586220991,
+    "endowment": "Tuesday to Saturday, 8:00 AM to 7:30 PM",
+    "services" : [
+      "Clothing rental available",
+      "Cafeteria available",
+      "No patron housing available",
+      "Distribution center nearby",
+    ],
+    "closures" : [
+      "Tuesday, January 1, 2019",
+      "Saturday, April 6, 2019",
+      "Thursday, July 4, 2019",
+      "Wednesday, July 24, 2019",
+      "Monday, September 30, 2019 - Monday, November 11, 2019",
+      "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
+      "Tuesday, December 24, 2019",
+      "Wednesday, December 25, 2019",
+      "Tuesday, December 31, 2019",
+    ],
+    "history" : [
+      "Announced: April 7, 1984",
+      "Groundbreaking: February 27, 1988",
+      "Dedicated: April 25, 1993",
+    ]
+  },
+
+{
+    "name": "Boise Idaho Temple",
+    "address": "1211 S Cole Rd",
+    "city": "Boise",
+    "state": "ID",
+    "zip": 83709,
+    "phone": 2083224422,
+    "endowment": "Tuesday to Saturday, 6:00 AM to 8:00 PM",
+    "services" : [
+      "No clothing rental available",
+      "No cafeteria available",
+      "No patron housing available",
+      "Distribution center nearby",
+    ],
+    "closures" : [
+      "Tuesday, January 1, 2019",
+      "Saturday, April 6, 2019",
+      "Thursday, July 4, 2019",
+      "Wednesday, July 24, 2019",
+      "Saturday, October 5, 2019",
+      "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
+      "Tuesday, December 24, 2019",
+      "Wednesday, December 25, 2019",
+      "Tuesday, December 31, 2019",
+    ],
+    "history" : [
+      "Announced: March 31, 1982",
+      "Groundbreaking: December 18, 1982",
+      "Dedicated: May 25, 1984",
+      "Rededicated: May 29, 1987",
+      "Rededicated: November 18, 2012",
+    ]
+  },
+
+ ]
+}

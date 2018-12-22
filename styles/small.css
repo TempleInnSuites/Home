@@ -367,7 +367,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
     background-color: #2C3C56;
-    max-width: 700px;
+    
     width: 100%;
     margin: auto auto 10px auto;
     padding: 10px 0;
@@ -395,9 +395,11 @@ main {
 
 .contactform {
     
-    background-color: #959CA3;
+    background-color: #B8B0A6;
     text-align: left;
-    padding: 10px;
+    padding-left: 5px;
+    margin: 0;
+    
 }
 
 .contactform h3 {
@@ -410,9 +412,10 @@ main {
 
 .formcontainer {
     
-    background-color: #959CA3;
+    background-color: #B8B0A6;
     width: 100%;
     margin: auto;
+    
 }
 
 .contactPara {
@@ -461,7 +464,7 @@ main {
     
     background-color: #959CA3;
     text-align: left;
-    padding: 15px 10px;
+    padding: 5px;
     margin: 20px auto;
     
 }
@@ -574,3 +577,9 @@ form {
     box-shadow: 0px 2px 15px 10px black;
     border-color: #D14851;
  }
+
+
+
+ /********************* TEMPLES ***********************/
+
+
